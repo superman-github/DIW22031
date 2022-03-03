@@ -14,7 +14,7 @@ function VerifForm(event) {
     var testprenom = test_texte.test(monprenom);
     console.log(testnom);
 
-    var test_tel = new RegExp("^[0]{1}[0-9]{1}[-.]?[0-9]{2}[-.]?[0-9]{2}[-.]?[0-9]{2}[-.]?[0-9]{2}+$");
+    var test_tel = new RegExp("^[0]{1}[0-9]{1}[-.]?[0-9]{2}[-.]?[0-9]{2}[-.]?[0-9]{2}[-.]?[0-9]{2}$");
     var testtel = test_tel.test(montel);
     console.log(testtel);
 
